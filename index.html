@@ -1,71 +1,132 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HonestPengu - Meme Coin</title>
+    <title>HonestPengu - The Coolest Meme Coin</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            color: #333;
             text-align: center;
         }
+
         header {
-            background-color: #0077cc;
-            color: white;
-            padding: 1em;
+            background-color: #1e90ff;
+            padding: 20px;
         }
-        h1 {
+
+        header h1 {
+            color: #fff;
             margin: 0;
+            font-size: 2.5em;
         }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            color: #1e90ff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            padding: 50px 20px;
+            background-image: url('your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .hero img {
+            max-width: 300px;
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
         section {
-            margin: 2em auto;
-            max-width: 800px;
-            background: white;
-            padding: 1.5em;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 40px 20px;
         }
+
+        .roadmap, .cta {
+            background-color: #e6f7ff;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+
         footer {
-            background-color: #0077cc;
-            color: white;
-            padding: 1em;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        footer a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Willkommen bei HonestPengu 🐧</h1>
-        <p>Der coolste Meme-Coin auf der Solana-Blockchain!</p>
+        <h1>HonestPengu</h1>
+        <nav>
+            <a href="#whitepaper">Whitepaper</a>
+            <a href="#roadmap">Roadmap</a>
+            <a href="#buy">Buy $HPENGU</a>
+        </nav>
     </header>
-    <section>
-        <h2>Über HonestPengu</h2>
-        <p>HonestPengu ($HPENGU) ist ein Meme-Coin, der Fairness, Spaß und Innovation vereint.  
-        Sei Teil der Community und verändere das Spiel!</p>
+
+    <div class="hero">
+        <img src="HonestPengu_Logo.png" alt="HonestPengu Mascot">
+        <h2>The Coolest Meme Coin on Solana!</h2>
+    </div>
+
+    <section id="whitepaper">
+        <h2>Whitepaper</h2>
+        <p>Learn more about our vision, mission, and tokenomics. Read the full whitepaper by clicking the link below:</p>
+        <a href="whitepaper.html" target="_blank" style="color: #1e90ff; font-weight: bold;">Read the Whitepaper</a>
     </section>
-    <section>
-        <h2>Tokenomics</h2>
-        <ul>
-            <li>Öffentlicher Verkauf: 50%</li>
-            <li>Community-Belohnungen: 20%</li>
-            <li>Marketing & Partnerschaften: 15%</li>
-            <li>Liquidität: 10%</li>
-            <li>Team & Entwicklung: 5%</li>
-        </ul>
-    </section>
-    <section>
+
+    <section id="roadmap" class="roadmap">
         <h2>Roadmap</h2>
-        <p>Phase 1: Token-Launch 🚀<br>
-           Phase 2: Community-Building<br>
-           Phase 3: NFT-Launch & Staking<br>
-           Phase 4: Partnerschaften & Wachstum</p>
+        <p><strong>Phase 1:</strong> Smart Contract, Tokenomics, Logo & Whitepaper</p>
+        <p><strong>Phase 2:</strong> Fair Launch on Solana DEX (Raydium)</p>
+        <p><strong>Phase 3:</strong> Airdrops, Community Building, and Giveaways</p>
+        <p><strong>Phase 4:</strong> Partnerships and Community Growth</p>
     </section>
+
+    <section id="buy" class="cta">
+        <h2>Get $HPENGU</h2>
+        <p>You can buy or trade $HPENGU on the following platforms:</p>
+        <ul>
+            <li><a href="https://raydium.io" target="_blank">Raydium</a></li>
+            <li><a href="https://solflare.com" target="_blank">Solflare</a></li>
+        </ul>
+        <p>Join the movement and become part of the HonestPengu community!</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 HonestPengu | Join us on Twitter & Telegram!</p>
+        <p>&copy; 2024 HonestPengu. All rights reserved.</p>
+        <p>Follow us on <a href="https://twitter.com/HonestPenguCoin" target="_blank">Twitter</a> and join our <a href="https://t.me/HonestPengu" target="_blank">Telegram</a>.</p>
     </footer>
 </body>
 </html>
